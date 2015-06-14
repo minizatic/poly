@@ -1,0 +1,17 @@
+{{ partial "head.html" . }}
+{{ partial "hero.html" . }}
+<main class="posts">
+    {{ range .Data.Pages }}
+	    <article class="post">
+		    <h1>
+		    	<a href="{{ .Permalink }}">{{ .Title }}</a>
+		    </h1>
+		    {{ partial "post-meta.html" . }}
+		    <p class="summary">
+		    	{{ .Summary }}
+		    </p>
+		    <p class="read-more"><a href="{{ .Permalink }}">Read More »</a></p>
+		</article>
+    {{ end }}
+</main>
+{{ partial "foot.html" . }}

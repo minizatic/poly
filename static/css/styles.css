@@ -1,0 +1,111 @@
+html {
+	font-size: 12px;
+	color: #333;
+}
+body {
+	padding-top: 0px;
+	font-family: "Open Sans", sans-serif;
+}
+a {
+	text-decoration: none;
+	color: #333;
+	transition: all 0.1s ease;
+}
+a:hover {
+	color: rgb(0, 150, 200);
+}
+header {
+	background-color: rgb(255, 255, 255);
+	border-bottom: 1px solid #bbb;
+	max-width: 700px;
+	margin: 0 auto;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+header h1 {
+	font-size: 4rem;
+  	text-align: center;
+}
+header h1 a {
+	font-family: "Playfair Display";
+	font-weight: 400;
+	font-style: italic;
+	text-decoration: none;
+}
+nav {
+	height: 60px;
+	width: 100%;
+	line-height: 60px;
+	background-color: rgba(0, 0, 0, 0.0);
+	font-family: "Open Sans";
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+nav ul li {
+	display: inline;
+}
+nav ul li a {
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #667;
+}
+main {
+	max-width: 700px;
+	margin: 0 auto;
+	padding-top: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+main.single .post-meta {
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+article.post {
+	margin-bottom: 80px;
+}
+article.post h1 {
+	text-align: center;
+	margin-bottom: 12px;
+}
+article.post h1 a {
+	font-family: "Playfair Display";
+	font-weight: 700;
+}
+article.post .date-posted {
+	font-style: italic;
+}
+article.post .post-meta {
+	text-align: center;
+	color: rgb(120, 120, 120);
+}
+article.post .summary, .content{
+	font-family: "Lora", serif;
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+}
+article.post .read-more a {
+	color: rgb(120, 120, 120);
+}
+footer {
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	color: rgb(120, 120, 120);
+}
+@media (min-width: 330px) {
+	html {
+		font-size: 14px;
+	}
+}
+@media (min-width: 600px) {
+	html {
+		font-size: 16px;
+	}
+}

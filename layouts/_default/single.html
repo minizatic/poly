@@ -1,0 +1,9 @@
+{{ partial "head.html" . }}
+{{ partial "hero.html" . }}
+<main class="single">
+	<article class="post">
+	{{ partial "post-meta.html" . }}
+	<div class="content">{{ .Content }}</div>
+	</article>
+</main>
+{{ partial "foot.html" . }}
